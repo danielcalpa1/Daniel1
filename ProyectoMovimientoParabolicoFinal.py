@@ -4,7 +4,7 @@ from scipy.integrate import solve_ivp
 import pandas as pd
 import simpy
 
-# Definición de la clase Vector y la clase ProjectileSimulator
+# Definición de la clase Vector, la funcion arctan en series de Taylor y la clase ProjectileSimulator
 class Vector:
     def __init__(self, x, y):
         self.x = x
