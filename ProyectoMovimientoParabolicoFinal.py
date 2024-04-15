@@ -139,7 +139,7 @@ elif opcion == "2":
     print(f"Alcance vertical: {vertical_range:.2f} metros")
 
      # Calcular el ángulo de tiro
-    angle_rad = arctan_taylor(initial_velocity_y/initial_velocity_x, 10)
+    angle_rad = arctan_taylor(initial_velocity_y/initial_velocity_x, 100)
     angle_deg = np.rad2deg(angle_rad)
     print(f"Ángulo de tiro: {angle_deg:.2f} grados")
 
