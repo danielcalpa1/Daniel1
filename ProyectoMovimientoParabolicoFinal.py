@@ -20,6 +20,7 @@ class Vector:
         return Vector(self.x * scalar, self.y * scalar)
 
 def arctan_taylor(x, n):
+    x = initial_velocity_x/initial_velocity_y
     result = 0
     sign = 1
     for i in range(1, n+1, 2):
